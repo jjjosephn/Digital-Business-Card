@@ -1,38 +1,142 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  color: white;
+  /* background-color: red; */
+}
+
+/* App-js style  */
+.app-container {
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px 10px;
+  width: 517px;
+  height: 845px;
+  background-color: #23252c
+}
+
+.app-container-2 {
+  border-radius: 10px;
+  margin: 20px auto;
+  background-color: #1a1b21;
+  width: 317px;
+  height: 765px;
+  box-shadow: 5px 5px 5px rgba(31, 30, 30, 0.233);
+}
+
+.image {
+  width: 317px;
+  height: 317px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.name {
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  font-size: 27px;
+}
+
+.title {
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  color: #a3846d;
+}
+
+.btn{
+  margin: 5px 0px 0px 0px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  margin: 5px 5px 0px 0px;
+  justify-content: center;
+}
+.mail-icon{
+  width: 20px;
+  margin-right: 10px;
+}
+.website-icon{
+  width: 20px;
+  margin-right: 10px;
+}
+.website {
+  display: flex;
+  align-items: center;
+  width: 125px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  margin: 5px 0px 0px 5px;
+  justify-content: center;
+}
+
+.app-container-3{
+  margin: 20px auto;
+  width: 250px;
+  height: 220px;
+}
+
+.info{
+  font-size: 12px;
+  margin: 5px 0 20px 0;
+  color: #d1d0cf
+}
+
+.about{
+  margin: 0;
+  font-size: 20px;
+}
+
+.interests{
+  margin: 0;
+  font-size: 20px;
+}
+
+.info2{
+  font-size: 12px;
+  margin: 5px 0 20px 0;
+  color: #d1d0cf
+}
+
+.footer-container{
+  width: 317px;
+  height: 75px;
+  background: #161619;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon {
+  height: 39px;
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{ 
+  text-decoration: none; 
+} 
+
+.email:hover{
+  background-color: #9e9d9d; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.website:hover { 
+  background-color: #9e9d9d; 
+} 
