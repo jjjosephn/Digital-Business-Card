@@ -1,20 +1,22 @@
 import React from "react"
-import GradPhoto from "../images/GradPhoto2.jpg"
-import MailIcon from "../images/Mail.png"
-import WebsiteIcon from "../images/WebsiteIcon.png"
+import Logo from "../images/sickiqs.png"
+import InstagramIcon from "../images/instagram.png"
+import TiktokIcon from "../images/tiktok.png"
 
 export default function About () {
     return(
-        <div>
-            <img className="image" src={GradPhoto}/>
-            <h1 className="name">Joseph Nguyen</h1>
-            <p className="title">Computer Scientist</p>
+        <div class="contain">
+            <img className="image" src={Logo}/>
+            <h1 className="name">Sickiqs</h1>
+            <p className="title">Located in San Jose, CA</p>
             <div className="btn">
-                <a href="mailto: jthnguyen02@gmail.com" target="_blank">
-                    <button className="email"><img className="mail-icon" src={MailIcon} />Email</button>
-                </a>
-                <a href="https://tech-portfolio-nine.vercel.app/" target="_blank">
-                    <button className="website"><img className="website-icon" src={WebsiteIcon} />Website</button>
+                <div className="insta">
+                    <a href="https://www.instagram.com/sickiqs" target="_blank">
+                        <button className="email"><img className="instagram-icon" src={InstagramIcon} />Instagram</button>
+                    </a>
+                </div>
+                <a href="https://www.tiktok.com/@sickiqs?_t=8jjeIEXKbMM&_r=1" target="_blank">
+                    <button className="website"><img className="tiktok-icon" src={TiktokIcon} />TikTok</button>
                 </a>
             </div>
         </div>

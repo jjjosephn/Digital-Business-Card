@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background: #1a1b21;
 }
 
 body {
@@ -26,10 +27,15 @@ body {
   width: 317px;
   height: 765px;
   box-shadow: 5px 5px 5px rgba(31, 30, 30, 0.233);
+  border: 1px solid #b992fc;
+}
+.contain{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .image {
-  width: 317px;
+  width: 315px;
   height: 317px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -64,14 +70,17 @@ body {
   font-size: 15px;
   margin: 5px 5px 0px 0px;
   justify-content: center;
+  background: white;
 }
-.mail-icon{
+.instagram-icon{
   width: 20px;
   margin-right: 10px;
+  background-color: white;
 }
-.website-icon{
+.tiktok-icon{
   width: 20px;
   margin-right: 10px;
+  background: white;
 }
 .website {
   display: flex;
@@ -83,6 +92,7 @@ body {
   font-size: 15px;
   margin: 5px 0px 0px 5px;
   justify-content: center;
+  background: white;
 }
 
 .app-container-3{
@@ -112,14 +122,17 @@ body {
   margin: 5px 0 20px 0;
   color: #d1d0cf
 }
-
+footer{
+  background: #161619;
+}
 .footer-container{
-  width: 317px;
-  height: 75px;
+  width: 315px;
+  height: 77px;
   background: #161619;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   text-align: center;
+  color: #161619; 
 }
 
 .icon {
@@ -127,16 +140,13 @@ body {
   margin-top: 18px;
   margin-left: 10px;
   margin-right: px;
+  background: #161619;
 }
 
 a{ 
   text-decoration: none; 
 } 
 
-.email:hover{
+button:hover, button > .instagram-icon:hover, .tiktok-icon:hover{
   background-color: #9e9d9d; 
 }
-
-.website:hover { 
-  background-color: #9e9d9d; 
-} 
