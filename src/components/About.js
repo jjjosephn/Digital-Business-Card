@@ -11,7 +11,7 @@ export default function About () {
             <p className="title">Located in San Jose, CA</p>
             <div className="btn">
                 <div className="insta">
-                    <a href="https://www.instagram.com/sickiqs" target="_blank">
+                    <a href="https://www.instagram.com/p/CRaTMiDpHWU/" target="_blank">
                         <button className="email"><img className="instagram-icon" src={InstagramIcon} />Instagram</button>
                     </a>
                 </div>
